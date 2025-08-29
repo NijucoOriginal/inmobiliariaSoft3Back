@@ -8,7 +8,6 @@ import lombok.*;
 
 import java.util.ArrayList;
 
-@NotEmpty
 @NotBlank
 @Getter
 @Setter

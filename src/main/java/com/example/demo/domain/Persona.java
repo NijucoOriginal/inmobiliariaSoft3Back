@@ -3,7 +3,6 @@ package com.example.demo.domain;
 import jakarta.validation.constraints.*;
 import lombok.*;
 
-@NotEmpty
 @NotBlank
 @Getter
 @Setter
