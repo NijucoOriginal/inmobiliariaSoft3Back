@@ -1,6 +1,6 @@
 package com.example.demo.domain;
 
-public class Administrador {
+public class Administrador extends Empleado {
 
     
 }
