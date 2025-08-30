@@ -12,14 +12,18 @@ import lombok.*;
 public class Persona {
 
     private String nombre;
+
     private String apellido;
+
     @Pattern(
             regexp = "^.{10}$",
             message = "Acuerdese que la cedula solo incluye 10 caracteres"
     )
-    private String documentoIdentidad;
+    private int documentoIdentidad;
+
     @Email
     private String correoElectronico;
+
     @Pattern(
             regexp = "^(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",
             message = "La contraseña debe tener al " +
