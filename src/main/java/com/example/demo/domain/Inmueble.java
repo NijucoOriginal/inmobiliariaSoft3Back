@@ -52,4 +52,6 @@ public class Inmueble {
 
     private ArrayList<HistorialInmueble> historial;
 
+    private AsesorLegal asesorLegal;
+
 }

@@ -25,6 +25,5 @@ public class DocumentoImportante {
     private String descripcion;
 
     private int id;
-
-    private ArrayList<DocumentoImportante> documentosAdjuntos;
+    
 }
