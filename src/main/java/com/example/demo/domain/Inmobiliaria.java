@@ -17,7 +17,6 @@ import java.util.ArrayList;
 public class Inmobiliaria {
 
     private ArrayList<Cliente> clientes;
-    private ArrayList<Administrador> administradores;
     private ArrayList<Inmueble> inmuebles;
     private ArrayList<AgenteInmobiliario> agentes;
     private ArrayList<AsesorLegal> asesoresLegales;

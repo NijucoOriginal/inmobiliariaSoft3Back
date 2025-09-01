@@ -19,11 +19,10 @@ public class DocumentoImportante {
     @PastOrPresent
     private LocalDateTime fechaExpedicion;
 
-    @FutureOrPresent
-    private LocalDateTime fechaVencimiento;
-
     private String descripcion;
 
     private int id;
+
+    private String nombreDocumento;
     
 }

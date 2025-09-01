@@ -18,5 +18,5 @@ public class Empleado extends Persona{
 
     @NotNull
     @Positive
-    private double salary;
+    private double precioNomina;
 }

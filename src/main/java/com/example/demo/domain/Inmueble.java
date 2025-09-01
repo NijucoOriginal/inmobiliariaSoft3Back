@@ -54,4 +54,7 @@ public class Inmueble {
 
     private AsesorLegal asesorLegal;
 
+    @Min(1)
+    private int cantidadParqueaderos;
+
 }

@@ -3,5 +3,9 @@ package com.example.demo.domain;
 public enum EstadoTransaccion {
 
     PERMUTADO,
-    VENDIDO,ALQUILADO
+    VENDIDO,
+    ALQUILADO,
+    PROCESOALQUIER,
+    PROCESOCOMPRA,
+    PROCESOPERMUTACION
 }

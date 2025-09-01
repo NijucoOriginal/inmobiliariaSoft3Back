@@ -1,8 +1,10 @@
 package com.example.demo.domain;
 
 
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Positive;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -23,9 +25,12 @@ public class HistorialInmueble {
 
     private TipoNegocio tipoNegocio;
 
+    @Positive
     private double precio;
 
-    private String cambioPermutacion;
+    private String descripcionPermutacion;
 
     private int idHistorial;
+
+    private Cliente propietario;
 }

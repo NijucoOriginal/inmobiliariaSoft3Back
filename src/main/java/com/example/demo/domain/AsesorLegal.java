@@ -1,4 +1,15 @@
 package com.example.demo.domain;
 
-public class AsesorLegal {
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
+import lombok.*;
+
+@NotEmpty
+@NotBlank
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class AsesorLegal extends Empleado{
 }

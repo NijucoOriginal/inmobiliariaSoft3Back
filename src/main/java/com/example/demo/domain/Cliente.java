@@ -14,7 +14,7 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Cliente {
+public class Cliente extends Persona {
 
     private ArrayList<Inmueble> inmublesPropios;
 
