@@ -28,7 +28,7 @@ public class HistorialInmueble {
     @Positive
     private double precio;
 
-    private String descripcionPermutacion;
+    private String descripcion;
 
     private int idHistorial;
 
