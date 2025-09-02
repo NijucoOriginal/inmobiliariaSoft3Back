@@ -75,6 +75,17 @@ CREATE TABLE HistorialInmueble (
     FOREIGN KEY (codigoInmueble) REFERENCES Inmueble(codigoInmueble)
 );
 
+CREATE TABLE Imagenes (
+    codigoImagen VARCHAR(50) PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    url VARCHAR(500) NOT NULL,
+    descripcion VARCHAR(500),
+    inmuebleAsociado int,
+    CONSTRAINT fk_inmueble
+        FOREIGN KEY (inmuebleAsociado)
+        REFERENCES Inmueble(codigoInmueble)
+);
+
 ALTER TABLE HistorialInmueble 
 MODIFY descripcion VARCHAR(255);
 

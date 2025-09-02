@@ -6,3 +6,4 @@ SELECT * FROM  cliente;
 SELECT * FROM documentoimportante;
 SELECT * FROM historialinmueble;
 SELECT * FROM inmueble;
+SELECT * FROM imagenes;
