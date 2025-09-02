@@ -57,4 +57,12 @@ public class Inmueble {
     @Min(1)
     private int cantidadParqueaderos;
 
+    private String telfonoContacto;
+
+    private String nombreContacto;
+
+    private String correoContacto;
+
+    private ArrayList<Imagen> imagenes;
+
 }
