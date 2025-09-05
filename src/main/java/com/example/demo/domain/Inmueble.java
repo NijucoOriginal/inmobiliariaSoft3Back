@@ -66,4 +66,6 @@ public class Inmueble {
     @Max(10)
     private int estrato;
 
+
+
 }
