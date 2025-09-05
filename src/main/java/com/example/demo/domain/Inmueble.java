@@ -1,9 +1,6 @@
 package com.example.demo.domain;
 
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.*;
 import lombok.*;
 
 import java.util.ArrayList;
@@ -64,5 +61,9 @@ public class Inmueble {
     private String correoContacto;
 
     private ArrayList<Imagen> imagenes;
+
+    @Min(1)
+    @Max(10)
+    private int estrato;
 
 }
